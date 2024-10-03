@@ -1,0 +1,11 @@
+[project]
+name = "todo-notification"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "django-notifications-hq>=1.8.3",
+    "django==4.2",
+    "djangorestframework>=3.15.2",
+]
